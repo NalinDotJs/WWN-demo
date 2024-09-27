@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WasteWise | Home</title>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet" />
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="nav">
+        <h2 class="logo">WasteWise</h2>
+        <li class="btns">
+            <a class="btn" href="#page2"><i class="ri-focus-2-line"></i> Our Goal</a>
+            <!-- <a class="btn" href="/map" target="_blank"><i class="ri-map-pin-2-fill"></i> Map</a> -->
+            <a class="btn" href="#page3"><i class="ri-contacts-line"></i> About Us</a>
+            <a class="btn" href="#footer"><i class="ri-contacts-book-line"></i> Contact Us</a>
+        </li>
+        <a class="li-btn" href="/login"><i class="ri-login-box-fill"></i> Login</a>
+        <a class="su-btn" href="/signup"><i class="ri-login-box-line"></i> Sign Up</a>
+    </div>
+    <div class="crsr"></div>
+    <div class="crsr-blur"></div>
+    <video autoplay muted loop id="bg-video">
+        <source src="https://cdn.pixabay.com/video/2021/08/06/84086-584871133_large.mp4" type="video/mp4">
+    </video>
+    <div class="main">
+        <div class="pages">
+            <div class="page1">
+                <h1 class="heading">Clean City. Cleaner Mind.</h1>
+                <p class="h-desc">Empowering a cleaner tomorrow with innovative IoT technology, our Wemos D1-based project detects waste with precision. Explore the future of waste management, reimagined. Join the movement towards a cleaner, greener world.</p>
+            </div>
+            <div class="page2" id="page2">
+                <h1>WasteWise Navigator</h1>
+                <div class="cards">
+                    <div class="card">
+                        <div class="vision">
+                            <h2>Vision</h2>
+                            <p>"To revolutionize waste management through innovative IoT technology, ensuring cleaner cities and empowering communities with simple, effective tools for a sustainable future."</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="mission">
+                            <h2>Mission</h2>
+                            <p>"To provide a user-friendly, technology-driven solution that enhances the efficiency of waste collection, empowering garbage collectors with intuitive tools and supporting municipal offices in overseeing a cleaner, greener environment."</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="page3" id="page3">
+                <h1>Team</h1>
+                <div class="cards">
+                    <div class="card">
+                        <div class="bvn">
+                            <h2>Bhavana Kumar</h2>
+                            <h3>"Bhavana is a final-year B.Tech CSE student at SRMIST Kattankulathur, Chennai. She is passionate about web development, specializing in interactive frontends and robust backends. Skilled in HTML, CSS, Node.js, Express.js, MongoDB, MySQL, Angular.js, Bootstrap, and Tailwind, Bhavana is also proficient in C/C++ for DSA. Additionally, she has a talent for game development and character designing."</h3>
+                            <div class="links">
+                                <a class="link" href="https://in.linkedin.com/in/bhavanakumar16" target="_blank"><i class="ri-linkedin-fill"></i> LinkedIn</a>
+                                <a class="link" href="https://in.linkedin.com/in/bhavanakumar16" target="_blank"><i class="ri-github-fill"></i> GitHub</a>
+                            </div>
+                          
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="nln">
+                            <h2>Nalin Krishali</h2>
+                            <h3>"Nalin is a final-year B.Tech CSE student at SRMIST Kattankulathur, Chennai. He is passionate about web development, specializing in interactive frontends and robust backends. Nalin is skilled in HTML, CSS, Node.js, Express.js, MongoDB, MySQL, React.js, Bootstrap, and Tailwind, and proficient in C/C++ for DSA. In addition to his tech skills, he is also a music producer proficient in FL Studio 21."</h3>
+                            <div class="links">
+                                <a class="link" href="https://www.linkedin.com/in/nalin-krishali-8692aa2b6/" target="_blank"><i class="ri-linkedin-fill"></i> LinkedIn</a>
+                                <a class="link" href="https://github.com/NalinDotJs" target="_blank"><i class="ri-github-fill"></i> GitHub</a>
+                            </div>
+
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <%- include('partials/footer') %>
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="/js/script.js"></script>
+</body>
+</html>
